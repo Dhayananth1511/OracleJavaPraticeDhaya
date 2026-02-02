@@ -2,51 +2,63 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2026-01-30T06:06:59.927097100Z</date>
-  <millis>1769753219927</millis>
-  <nanos>97100</nanos>
+  <date>2026-01-30T08:44:49.665703900Z</date>
+  <millis>1769762689665</millis>
+  <nanos>703900</nanos>
   <sequence>0</sequence>
-  <logger>LogHandlingWriting</logger>
+  <logger>LoggingConfiguration.Product</logger>
   <level>SEVERE</level>
-  <class>LogHandlingWriting</class>
-  <method>main</method>
+  <class>LoggingConfiguration.Product</class>
+  <method>process</method>
   <thread>1</thread>
-  <message>Severe error occurred</message>
+  <message>SEVERE : product failure</message>
 </record>
 <record>
-  <date>2026-01-30T06:07:00.039826900Z</date>
-  <millis>1769753220039</millis>
-  <nanos>826900</nanos>
+  <date>2026-01-30T08:44:49.777578800Z</date>
+  <millis>1769762689777</millis>
+  <nanos>578800</nanos>
   <sequence>1</sequence>
-  <logger>LogHandlingWriting</logger>
+  <logger>LoggingConfiguration.Product</logger>
   <level>WARNING</level>
-  <class>LogHandlingWriting</class>
-  <method>main</method>
+  <class>LoggingConfiguration.Product</class>
+  <method>process</method>
   <thread>1</thread>
-  <message>Warning message</message>
+  <message>WARNING : product warning</message>
 </record>
 <record>
-  <date>2026-01-30T06:07:00.041799100Z</date>
-  <millis>1769753220041</millis>
-  <nanos>799100</nanos>
+  <date>2026-01-30T08:44:49.779599300Z</date>
+  <millis>1769762689779</millis>
+  <nanos>599300</nanos>
   <sequence>2</sequence>
-  <logger>LogHandlingWriting</logger>
+  <logger>LoggingConfiguration.Product</logger>
   <level>INFO</level>
-  <class>LogHandlingWriting</class>
-  <method>main</method>
+  <class>LoggingConfiguration.Product</class>
+  <method>process</method>
   <thread>1</thread>
-  <message>Information message</message>
+  <message>INFO : product info</message>
 </record>
 <record>
-  <date>2026-01-30T06:07:00.042800500Z</date>
-  <millis>1769753220042</millis>
-  <nanos>800500</nanos>
+  <date>2026-01-30T08:44:49.780597500Z</date>
+  <millis>1769762689780</millis>
+  <nanos>597500</nanos>
   <sequence>3</sequence>
-  <logger>LogHandlingWriting</logger>
-  <level>FINE</level>
-  <class>LogHandlingWriting</class>
-  <method>main</method>
+  <logger>LoggingConfiguration.Product</logger>
+  <level>CONFIG</level>
+  <class>LoggingConfiguration.Product</class>
+  <method>process</method>
   <thread>1</thread>
-  <message>Fine level debugging message</message>
+  <message>CONFIG : product config</message>
+</record>
+<record>
+  <date>2026-01-30T08:44:49.781619400Z</date>
+  <millis>1769762689781</millis>
+  <nanos>619400</nanos>
+  <sequence>4</sequence>
+  <logger>LoggingConfiguration.Product</logger>
+  <level>FINE</level>
+  <class>LoggingConfiguration.Product</class>
+  <method>process</method>
+  <thread>1</thread>
+  <message>FINE : product debug</message>
 </record>
 </log>
