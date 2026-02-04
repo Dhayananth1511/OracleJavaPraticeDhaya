@@ -10,8 +10,8 @@ public class programflowproducingRuntime {
             b();   // RuntimeException occurs here
             c();
         }
-        //catch (RuntimeException e) {
-    // System.out.println("Runtime exception caught");
+//         catch (RuntimeException e) {
+//     System.out.println("Runtime exception caught");
 // }
        
        
