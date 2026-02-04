@@ -55,9 +55,10 @@
 // }
 // }
 // }}
+package java vs;
 class Test {
     void print(Integer i) { System.out.println("Integer"); }
-    void print(int ... i) { System.out.println("Varargs"); }
+    void print(int i) { System.out.println("Varargs"); }
     void print1(Integer i) {
     System.out.println(i+(Integer)10); // i points to Integer object holding 5
 }
@@ -67,5 +68,6 @@ class Test {
         new Test().print(5);
          // int literal
          new Test().print1(5);
+         System.err.println("adsfgf");
     }
 }
